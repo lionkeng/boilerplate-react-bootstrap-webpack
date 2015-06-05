@@ -14,7 +14,7 @@ var definePlugin = new webpack.DefinePlugin({
 var commonLoaders = [
       { test: /\.less$/, loader: 'style-loader!css-loader!less-loader' }, // use ! to chain loaders
       { test: /\.css$/, loader: 'style-loader!css-loader' },
-      { test: /.*\.(gif|png|jpg)$/, loaders: ['file?hash=sha512&digest=hex&size=16&name=[hash].[ext]', 'image-webpack-loader?optimizationLevel=7&interlaced=false']},
+      { test: /\.(gif|png|jpg)$/, loader: 'url-loader?limit=8192'}, // inline base64 URLs for <=8k images, direct URLs for the rest
       { test: /.*\.(eot|woff|ttf|svg)/, loader: 'file?hash=sha512&digest=hex&size=16&name=cd [hash].[ext]'},
       { test: /\.jsx?$/, loaders: ['babel-loader'], exclude: /node_modules/},
       // { test: /\.js$/, loader: 'jsx-loader?harmony' }
