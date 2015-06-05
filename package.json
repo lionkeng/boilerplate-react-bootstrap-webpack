@@ -31,6 +31,7 @@
     "file-loader": "^0.8.4",
     "image-webpack-loader": "^1.4.0",
     "imagemin": "^3.2.0",
+    "jsx-loader": "^0.13.2",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
     "node-libs-browser": "^0.5.2",
