@@ -19,7 +19,7 @@ var NavItem = ReactBootstrap.NavItem;
 var DropdownButton = ReactBootstrap.DropdownButton;
 var MenuItem = ReactBootstrap.MenuItem;
 
-var exampleLogo = require('../assets/images/Pepsi_logo_2008.png');
+var exampleLogo = require("../assets/images/Pepsi_logo_2008.png");
 
 var icon = (
     <span>
