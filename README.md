@@ -11,9 +11,9 @@ Included here:
 
 
 ## Resources
-* For an example of a boilerplate that includes a server side implementation with hapi, see [Thomas Coopman's boilerplate][https://github.com/tcoopman/boilerplate-webpack-react].
-* For a nice description of how-tos for using webpack with reactjs, many have referenced Pete Hunt's [webpack-howto][https://github.com/petehunt/webpack-howto]. 
-* That said, I found [Christian Alfoni's react-webpack cookbook][https://christianalfoni.github.io/react-webpack-cookbook/] very helpful.
+* For an example of a boilerplate that includes a server side implementation with hapi, see [Thomas Coopman's boilerplate](https://github.com/tcoopman/boilerplate-webpack-react).
+* For a nice description of how-tos for using webpack with reactjs, many have referenced Pete Hunt's [webpack-howto](https://github.com/petehunt/webpack-howto). 
+* That said, I found [Christian Alfoni's react-webpack cookbook](https://christianalfoni.github.io/react-webpack-cookbook/) very helpful.
 
 ## License
 
