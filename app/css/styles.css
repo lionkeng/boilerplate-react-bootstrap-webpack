@@ -1,0 +1,11 @@
+body {
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.logo {
+    height: 50px;
+}
